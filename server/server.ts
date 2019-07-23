@@ -112,5 +112,5 @@ app.get("/refresh_token", ({ query: { refresh_token } }, res) => {
   });
 });
 
-console.log("Listening on 8888");
+console.log("Listening on 3000");
 app.listen(3000);
